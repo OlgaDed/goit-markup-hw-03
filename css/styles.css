@@ -43,11 +43,6 @@ body {
 
 /* page header */
 .header .container {
-    max-width: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
     width: 1440px;
     height: 72px;
 }
@@ -99,11 +94,6 @@ body {
 
 /* site title */
 .hero .container {
-    max-width: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
     width: 1440px;
     height: 600px;
 }
@@ -140,11 +130,7 @@ body {
 
 /* features-program materials */
 .features .container {
-    max-width: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 120px 156px;
     width: 1128px;
     height: 104px;
 }
@@ -174,11 +160,6 @@ body {
 
 /* our team section */
 .team .container {
-    max-width: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
     width: 1440px;
     height: 732px;
 }
@@ -225,11 +206,7 @@ body {
 
 /* portfolio section */
 .portfolio .container {
-    max-width: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 120px 156px;
     width: 1128px;
     height: 1000px;
 }
@@ -262,11 +239,6 @@ body {
 
 /* page footer */
 .footer .container {
-    max-width: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
     width: 1440px;
     height: 312px;
 }
