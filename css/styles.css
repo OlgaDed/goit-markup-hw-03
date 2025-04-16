@@ -47,10 +47,11 @@ body {
 
 /* page header */
 .header .container {
-    padding: 24px 156px;
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
+    padding: 24px 156px;
+   /* gap: 332px*/
 }
 
 .nav {
