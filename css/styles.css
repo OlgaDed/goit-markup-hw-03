@@ -45,18 +45,18 @@ body {
 .header .container {
     width: 1440px;
     padding: 24px 156px;
-    display: flex;
+   /* display: flex;*/
     justify-content: space-between;
     align-items: center;
 }
 
-.header .container .nav {
+/*.header .container .nav {
     flex-direction: row;
 }
 
 .header .container .address {
     flex-direction: row-reverse
-}
+}*/
 
 /* logo */
 .header .logo {
