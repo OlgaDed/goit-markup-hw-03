@@ -48,8 +48,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction:row;
-    }
+}
+
+.header .container .nav {
+    flex-direction: row;
+}
+
+.header .container .address {
+    flex-direction: row-reverse
+}
 
 /* logo */
 .header .logo {
