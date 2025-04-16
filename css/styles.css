@@ -47,19 +47,22 @@ body {
 
 /* page header */
 .header .container {
-    padding: 24px 156px;
-   /* display: flex;*/
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 24px 156px;
 }
 
-/*.header .container .nav {
-    flex-direction: row;
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 76px;
 }
 
-.header .container .address {
-    flex-direction: row-reverse
-}*/
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
 
 /* logo */
 .header .logo {
@@ -104,6 +107,11 @@ body {
 
 .address-link:hover, .address-link:focus {
     color: #404bbf;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 
 /* site title */
@@ -172,9 +180,9 @@ body {
 }
 
 /* our team section */
-.team .container {
+/*.team .container {
     
-}
+}*/
 
 /* section title */
 .team {
@@ -249,9 +257,9 @@ body {
 }
 
 /* page footer */
-.footer .container {
+/*.footer .container {
     
-}
+}*/
 
 .footer {
     background-color: #2e2f42;
