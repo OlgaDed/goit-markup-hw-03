@@ -51,7 +51,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 24px 156px;
-   /* gap: 332px*/
+    gap: 332px
 }
 
 .nav {
