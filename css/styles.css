@@ -34,6 +34,10 @@ img {
     height: auto;
 }
 
+.container {
+    width: 1158px;
+}
+
 /* page body */
 body {
     font-family: "Roboto", sans-serif;
@@ -43,7 +47,6 @@ body {
 
 /* page header */
 .header .container {
-    width: 1440px;
     padding: 24px 156px;
    /* display: flex;*/
     justify-content: space-between;
@@ -170,7 +173,7 @@ body {
 
 /* our team section */
 .team .container {
-    width: 1440px;
+    
 }
 
 /* section title */
@@ -247,8 +250,7 @@ body {
 
 /* page footer */
 .footer .container {
-    width: 1440px;
-    height: 312px;
+    
 }
 
 .footer {
