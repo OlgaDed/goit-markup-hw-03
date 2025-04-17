@@ -212,25 +212,22 @@ body {
 }
 
 /* our team section */
-.team .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* section title */
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team .container {
     padding: 120px 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     gap: 72px;
+    margin-bottom: 72px;
 }
 
+/* section title */
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -247,6 +244,10 @@ body {
     align-items: center;
     justify-content: center;
     width: calc((100% - 72px) / 4);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 
 /* employee's name */
