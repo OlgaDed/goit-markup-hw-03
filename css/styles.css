@@ -150,8 +150,7 @@ body {
 
 /* features-program materials */
 .features .container {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 120px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
