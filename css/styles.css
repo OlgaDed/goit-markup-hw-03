@@ -159,17 +159,28 @@ body {
 
 /* features-program materials */
 .features .container {
-    padding-top: 120px 0;
+    padding: 120px 0;    
+}
+
+.features-list {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 24px;
+}
+
+.features-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc((100% - 72px) / 4)
 }
 
 /* hidden header */
 .visually-hidden {
     overflow: hidden;
     clip: rect(0 0 0 0);
+    display: none;
 }
 
 /* h3 headers */
