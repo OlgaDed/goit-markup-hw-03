@@ -170,6 +170,7 @@ body {
 .features .container {
     padding-top: 120px;
     padding-bottom: 120px;
+    display: flex;
     justify-content: center;
 }
 
