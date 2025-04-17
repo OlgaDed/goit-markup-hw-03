@@ -175,13 +175,6 @@ body {
     width: calc((100% - 72px) / 4);
 }
 
-.features-title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 /* hidden header */
 .visually-hidden {
     overflow: hidden;
@@ -196,6 +189,7 @@ body {
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: left;
 }
 
 /* text of paragraphs */
