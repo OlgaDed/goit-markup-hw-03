@@ -343,9 +343,12 @@ body {
     padding: 100px 0;      
 }
 
-/*.footer .container {
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 16px;
-}*/
+}
 
 /* logo */
 .footer .logo {
@@ -361,10 +364,6 @@ body {
 /* styles for the" Studio " footer */
 .footer .logo-studio {
     color: #f4f4fd;
-}
-
-.footer .logo, .footer .logo-studio {
-    gap: 16;
 }
 
 /* footer paragraph */
