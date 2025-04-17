@@ -60,10 +60,13 @@ body {
 }
 
 .nav {
+    display: flex;
+    align-items: center;
     gap: 76px;
 }
 
 .nav-list, .address-list {
+    display: flex;
     gap: 40px;
 }
 
