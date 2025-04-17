@@ -50,12 +50,13 @@ body {
 /* page header */
 .header .container {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     align-items: center;
 }
 
 .nav {
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     gap: 76px;
 }
@@ -103,6 +104,7 @@ body {
 /* contacts */
 .address {
     font-style: normal;
+    justify-content: flex-end;
 }
 
 .address-link {
