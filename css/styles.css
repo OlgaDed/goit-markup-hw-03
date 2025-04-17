@@ -181,9 +181,11 @@ body {
 }
 
 /* our team section */
-/*.team .container {
-    
-}*/
+.team .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* section title */
 .team {
