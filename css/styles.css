@@ -115,6 +115,17 @@ body {
     color: #404bbf;
 }
 
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-link, .address-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 /* site title */
 .hero .container {
     width: 1440px;
