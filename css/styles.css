@@ -171,8 +171,9 @@ body {
 .features-item {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: calc((100% - 72px) / 4);
+    gap: 8px;
 }
 
 /* hidden header */
