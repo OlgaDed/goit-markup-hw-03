@@ -322,13 +322,6 @@ body {
     padding: 100px 0;      
 }
 
-.footer .container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-}
-
 /* logo */
 .footer .logo {
     font-family: "Raleway", sans-serif;
@@ -338,6 +331,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /* styles for the" Studio " footer */
@@ -351,7 +346,4 @@ body {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 }
